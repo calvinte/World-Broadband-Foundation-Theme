@@ -1,0 +1,16 @@
+; $Id: stark.info,v 1.4 2010/11/07 00:27:20 dries Exp $
+name = WBF
+description = Custom theme
+package = Custom
+version = VERSION
+core = 7.x
+stylesheets[all][] = layout.css
+scripts[] = script.js
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Left sidebar
+regions[footer] = Footer
+regions[dropdown] = Drop Down 
