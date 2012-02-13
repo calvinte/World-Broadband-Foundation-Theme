@@ -4,8 +4,10 @@ description = Custom theme
 package = Custom
 version = VERSION
 core = 7.x
-stylesheets[all][] = layout.css
 scripts[] = script.js
+
+;CSS
+stylesheets[all][] = layout.css
 
 regions[header] = Header
 regions[highlighted] = Highlighted
