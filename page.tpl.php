@@ -89,7 +89,7 @@
     <?php endif; ?>
 
     <?php print $messages; ?>
-    <div id="main-wrapper" class="container-12"><div id="main" class="clearfix">
+    <div id="main-wrapper" class="clearfix"><div id="main" class="container-12">
 
       <div id="content" class="column grid-9"><div class="section">
         <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
@@ -112,8 +112,8 @@
 
     </div></div> <!-- /#main, /#main-wrapper -->
 
-    <div id="footer" class="container-12"><div class="section">
-      <?php print render($page['footer']); ?>
-    </div></div> <!-- /.section, /#footer -->
+    <div id="footer-wrapper" class="clearfix"><div id="footer" class="section container-12">
+       <?php print render($page['footer']); ?> 
+    </div></div> <!-- /#footer-wraper, /#footer -->
 
   </div></div> <!-- /#page, /#page-wrapper -->

@@ -397,7 +397,13 @@ html, body {
   font: 14px Ubuntu,Arial,Helvetica,sans-serif;
   margin: 0;
   line-height: 21px;
+  background-color: #F2F2F2;
 }
+
+a:link {
+    color: #002A80;
+}
+
 h1, h2 { 
   font-size: 16px;
   color: #972D45;
@@ -415,6 +421,12 @@ h1 {
 #logo img {
   margin-top: 3px;
   margin-bottom: -3px;
+}
+
+#main-wrapper {
+  background: white;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 40px;
 }
 
 .region-header ul {
@@ -506,7 +518,7 @@ h1 {
   overflow: hidden;
 }
 
-.front .views-row,
+.front #main-wrapper .views-row,
 .view-about-leadership .views-row {
   border-bottom: #CCC dotted 1px;
   padding: 0 0 10px 0;
@@ -516,6 +528,15 @@ h1 {
   line-height: 25px;
   margin-bottom: 20px;
   min-height: 145px;
+}
+
+.front #footer-wrapper .views-row,
+.view-about-leadership .views-row {
+  border-bottom: none;
+  padding: 0;
+  margin-left: 160px;
+  color: #666;
+  line-height: 26px;
 }
 
 .front .views-row .thumbnail,
@@ -535,7 +556,7 @@ h1 {
   float: left;
 }
 
-.front .views-row h2 .external {
+.front .views-row h2 .extern           al {
   text-indent: -9999px;
   height: 10px;
   width: 10px;
@@ -733,7 +754,55 @@ h1 {
 }
 
 .region-footer .block {
-  width: 300px;
+  padding-top: 20px;
+  width: 290px;
   margin: 10px;
+  margin-top:40px;
   float: left;
+  font-size:13px;
+  color:#666;
+  line-height:20px;
+}
+
+.tweet-author a:link {
+    text-decoration: none;
+}
+
+.tweet-time a:link {
+    text-decoration: none;
+    font-style: italic;
+    color: #8d8d8d;
+}
+
+.tweet-text a:link {
+    text-decoration: none;
+    color: #8D8d8D;
+}
+
+#block-block-7 form input[type=submit]{
+    color:white;
+    background-color: #972D45;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right:5px;
+ 
+    border-width: 1px 0 0 1px;
+    border-color: #CCC;
+    border-style: solid;
+}
+
+#block-block-7 form input[type=text]{
+    font-style: italic;
+    color: #666;
+}
+
+.field-content {
+    margin-left: -160px;
+    width: 270px;
+}
+
+.field-content a:link {
+    color: #002A80;
 }
